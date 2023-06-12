@@ -176,7 +176,7 @@ const SignUp = () => {
                     )}
                   </div>
                   <input
-                    style={{ borderRadius: "0px 200px 0px 200px" }}
+                    // style={{ borderRadius: "0px 200px 0px 200px" }}
                     type={passwordShown ? "text" : "password"}
                     name="password"
                     id="password"
@@ -228,7 +228,7 @@ const SignUp = () => {
                     )}
                   </div>
                   <input
-                    style={{ borderRadius: "0px 200px 0px 200px" }}
+                    // style={{ borderRadius: "0px 200px 0px 200px" }}
                     type={passwordShown ? "text" : "password"}
                     name="confirmPassword"
                     id="password"
