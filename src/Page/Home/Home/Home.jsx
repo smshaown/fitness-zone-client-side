@@ -17,7 +17,7 @@ const Home = () => {
   return (
     <div>
       <Helmet>
-        <title>HealthyFit | Home</title>
+        <title>ArtSchool | Home</title>
       </Helmet>
       <Cover />
       <div className="mt-8 text-center">

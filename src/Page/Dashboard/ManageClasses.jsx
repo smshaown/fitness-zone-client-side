@@ -85,7 +85,7 @@ const ManageClasses = () => {
   return (
     <div>
       <Helmet>
-        <title>HealthyFit | Manage Classes</title>
+        <title>ArtSchool | Manage Classes</title>
       </Helmet>
       <table className="table shadow-sm mx-auto w-[90%]">
         <thead className="bg-slate-300  ">

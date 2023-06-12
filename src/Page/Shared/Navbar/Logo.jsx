@@ -1,16 +1,8 @@
-import logoImg from "../../../assets/images/logo.png";
+
 import { Link } from "react-router-dom";
 const Logo = () => {
   return (
-    <Link to="/">
-      <img
-        className="hidden md:block"
-        src={logoImg}
-        alt="LogoImg"
-        width="100"
-        height="100"
-      />
-    </Link>
+   <Link to="/"> <h3 className="font-bold text-2xl ">ArtSchool</h3></Link>
   );
 };
 

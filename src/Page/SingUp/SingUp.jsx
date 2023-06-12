@@ -82,7 +82,7 @@ const SignUp = () => {
   return (
     <>
       <Helmet>
-        <title>HealthyFit | SingUp</title>
+        <title>ArtSchool | SingUp</title>
       </Helmet>
       <div className="grid md:grid-cols-2 items-center lg:grid-cols-2">
         <div className="mx-auto w-[80%]">

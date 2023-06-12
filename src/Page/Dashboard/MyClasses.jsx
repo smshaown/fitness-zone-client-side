@@ -23,7 +23,7 @@ const MyClasses = () => {
   return (
     <div>
       <Helmet>
-        <title>HealthyFit | My Classes</title>
+        <title>ArtSchool | My Classes</title>
       </Helmet>
       <table className="table w-1/2">
         <thead className="bg-gray-300">
