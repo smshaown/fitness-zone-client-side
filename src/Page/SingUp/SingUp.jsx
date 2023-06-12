@@ -125,7 +125,7 @@ const SignUp = () => {
 
                     <input
                       type="url"
-                      style={{ borderRadius: "0px 200px 0px 200px" }}
+                      // style={{ borderRadius: "0px 200px 0px 200px" }}
                       {...register("photoURL", { required: true })}
                       placeholder="Photo URL"
                       name="photoURL"
