@@ -80,7 +80,7 @@ const Login = () => {
           <div className="flex flex-col max-w-md p-6 rounded-lg sm:p-10 bg-white shadow-lg">
             <div className="mb-8 text-center">
               <h1 className="my-3 text-4xl font-bold">LogIn</h1>
-              <p className="text-sm text-gray-400">Welcome to Healthy Fit</p>
+              <p className="text-sm text-gray-400">Welcome to Art School</p>
             </div>
             <form
               onSubmit={handleSubmit(onSubmit)}
