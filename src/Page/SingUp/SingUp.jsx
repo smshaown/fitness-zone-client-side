@@ -104,7 +104,7 @@ const SignUp = () => {
                     Name
                   </label>
                   <input
-                    style={{ borderRadius: "0px 200px 0px 200px" }}
+                    // style={{ borderRadius: "0px 200px 0px 200px" }}
                     type="text"
                     name="name"
                     id="name"
