@@ -104,7 +104,6 @@ const SignUp = () => {
                     Name
                   </label>
                   <input
-                    style={{ borderRadius: "0px 200px 0px 200px" }}
                     type="text"
                     name="name"
                     id="name"
@@ -125,7 +124,6 @@ const SignUp = () => {
 
                     <input
                       type="url"
-                      style={{ borderRadius: "0px 200px 0px 200px" }}
                       {...register("photoURL", { required: true })}
                       placeholder="Photo URL"
                       name="photoURL"
@@ -145,7 +143,6 @@ const SignUp = () => {
                     Email address
                   </label>
                   <input
-                    style={{ borderRadius: "0px 200px 0px 200px" }}
                     type="email"
                     name="email"
                     id="email"
@@ -176,7 +173,6 @@ const SignUp = () => {
                     )}
                   </div>
                   <input
-                    style={{ borderRadius: "0px 200px 0px 200px" }}
                     type={passwordShown ? "text" : "password"}
                     name="password"
                     id="password"
@@ -228,7 +224,6 @@ const SignUp = () => {
                     )}
                   </div>
                   <input
-                    style={{ borderRadius: "0px 200px 0px 200px" }}
                     type={passwordShown ? "text" : "password"}
                     name="confirmPassword"
                     id="password"
@@ -272,7 +267,7 @@ const SignUp = () => {
               <div>
                 <button
                   type="submit"
-                  className="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 w-full rounded-md py-3 text-white"
+                  className="bg-[#C7D300] w-full rounded-md py-3 text-white"
                 >
                   Continue
                 </button>
@@ -291,13 +286,13 @@ const SignUp = () => {
             >
               <FcGoogle size={32} />
 
-              <p>Continue with Google</p>
+             
             </div>
             <p className="px-6 text-sm text-center text-gray-400">
               Already have an account?
               <Link
                 to="/login"
-                className="hover:underline hover:text-rose-500 text-gray-600"
+                className="hover:underline hover:text-green-500 text-gray-600"
               >
                 Login
               </Link>

@@ -1,5 +1,4 @@
-import { Player } from "@lottiefiles/react-lottie-player";
-import AnimationLottie from "../assets/404.json";
+
 import { Helmet } from "react-helmet-async";
 import { Link, useRouteError } from "react-router-dom";
 const ErrorPage = () => {
@@ -10,17 +9,15 @@ const ErrorPage = () => {
         <title>Fitness zone | ErrorPage</title>
       </Helmet>
 
-      <div className="mx-auto w-[50%]">
-        <Player autoplay loop src={AnimationLottie}></Player>
-      </div>
-      <h3 className="text-center text-red-600">{error.message}</h3>
-      <div className="text-center mt-3">
-        <Link to="/">
-          <button className="text-xl font-semibold  bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 rounded-md p-3 text-white">
-            Back to Home
-          </button>
-        </Link>
-      </div>
+      <div className='container mx-auto text-center mt-4 '>
+            <img src="https://i.ibb.co/GVCH2PT/6549647-404-landingpage-kostenlos-vektor.jpg"   alt="" className='mt-5  h-[300px] img-fulid pl-60 mb-5' />
+            <h3 className='fw-bold'> {error.message}</h3>
+               
+            <h3 className=''>Not Found This Page</h3>
+
+            <button className="btn btn-success fw-bold mt-5"><Link className="text-decoration-none text-white" to="/">Back to homepage</Link></button>  
+          
+        </div>
     </div>
   );
 };

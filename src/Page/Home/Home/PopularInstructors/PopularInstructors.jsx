@@ -23,7 +23,7 @@ const PopularInstructors = () => {
             <img
               src={instructor.instructorImage}
               alt={instructor.instructorName}
-              className="w-full mb-2"
+              className="w-full mb-2 h-64"
             />
             <p className="font-semibold uppercase">
               {instructor.instructorName}

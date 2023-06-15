@@ -21,12 +21,12 @@ const Instructors = () => {
           {instructors.map((instructor) => (
             <div
               key={instructor._id}
-              className={`border border-gray-300 p-4 ${"bg-red-100"}`}
+              className={`border border-gray-300 p-4 ${"bg-[#9ea07b]"} text-white`}
             >
               <img
                 src={instructor.instructor.image}
                 alt={instructor.image}
-                className="w-full mb-4"
+                className="w-full mb-4 h-64"
               />
               <h2 className="text-lg font-bold mb-2">
                 {instructor.instructor.name}
