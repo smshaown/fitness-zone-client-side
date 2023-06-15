@@ -15,7 +15,7 @@ const Payment = () => {
   return (
     <>
       <Helmet>
-        <title>HealthyFit | Payment</title>
+        <title>Fitness zone | Payment</title>
       </Helmet>
       <div>
         <Elements stripe={striptPromise}>

@@ -82,7 +82,7 @@ const SignUp = () => {
   return (
     <>
       <Helmet>
-        <title>HealthyFit | SingUp</title>
+        <title>Fitness zone | SingUp</title>
       </Helmet>
       <div className="grid md:grid-cols-2 items-center lg:grid-cols-2">
         <div className="mx-auto w-[80%]">
@@ -92,7 +92,7 @@ const SignUp = () => {
           <div className="flex flex-col max-w-md p-6 rounded-lg sm:p-10 bg-white shadow-lg  text-gray-900">
             <div className="mb-8 text-center">
               <h1 className="my-3 text-4xl font-bold">Sign Up</h1>
-              <p className="text-sm text-gray-400">Welcome to Healthy Fit</p>
+              <p className="text-sm text-gray-400">Welcome to Fitness Zone</p>
             </div>
             <form
               onSubmit={handleSubmit(onSubmit)}

@@ -36,7 +36,7 @@ const MySelectedClassesPage = () => {
   return (
     <>
       <Helmet>
-        <title>HealthyFit | MySelectedClass</title>
+        <title>Fitness zone | MySelectedClass</title>
       </Helmet>
       <div className="container mx-auto py-8">
         <h1 className="text-2xl font-bold mb-4">My Selected Classes</h1>

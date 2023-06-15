@@ -87,7 +87,7 @@ const UpdateClass = () => {
   return (
     <>
       <Helmet>
-        <title>HealthyFit | Update Class</title>
+        <title>Fitness zone | Update Class</title>
       </Helmet>
       <div className="w-full min-h-[calc(100vh-40px)] flex flex-col justify-center items-center text-gray-800 rounded-xl px-5 bg-gray-50">
         <form onSubmit={handleSubmit}>

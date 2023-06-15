@@ -20,7 +20,7 @@ const PaymtHistory = () => {
   return (
     <>
       <Helmet>
-        <title>HealthyFit | Payment History</title>
+        <title>Fitness zone | Payment History</title>
       </Helmet>
       <div className="container mx-auto p-4">
         <h2 className="text-2xl font-bold mb-4">Payment History</h2>

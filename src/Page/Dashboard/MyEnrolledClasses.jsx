@@ -7,7 +7,7 @@ const MyEnrolledClasses = () => {
   return (
     <>
       <Helmet>
-        <title>HealthyFit | My Enrolled Class</title>
+        <title>Fitness zone | My Enrolled Class</title>
       </Helmet>
       <div>
         <h2 className="text-2xl mt-5 font-bold mb-4 text-center">

@@ -75,7 +75,7 @@ const AddAClass = () => {
   return (
     <>
       <Helmet>
-        <title>HealthyFit | Add A Class</title>
+        <title>Fitness zone | Add A Class</title>
       </Helmet>
       <AddClassForm
         handleSubmit={handleSubmit}
