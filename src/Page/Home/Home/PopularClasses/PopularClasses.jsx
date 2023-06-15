@@ -23,7 +23,7 @@ const PopularClasses = () => {
   return (
     <div className="container mx-auto py-8">
       <h1 className="lg:text-4xl text-xl uppercase font-semibold text-center ">
-        ------------------------ Ours Popular Classes -----------------------
+         Ours Popular Classes 
       </h1>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
         {popularClasses?.map((classItem) => (

@@ -91,8 +91,7 @@ const Login = () => {
                   <label htmlFor="email" className="block mb-2 text-sm">
                     Email address
                   </label>
-                  <input
-                    style={{ borderRadius: "0px 200px 0px 200px" }}
+                  <input                   
                     type="email"
                     name="email"
                     id="email"
@@ -125,8 +124,7 @@ const Login = () => {
                       />
                     )}
                   </div>
-                  <input
-                    style={{ borderRadius: "0px 200px 0px 200px" }}
+                  <input                   
                     type={passwordShown ? "text" : "password"}
                     name="password"
                     id="password"

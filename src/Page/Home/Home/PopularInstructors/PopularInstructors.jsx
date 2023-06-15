@@ -15,8 +15,7 @@ const PopularInstructors = () => {
   return (
     <div className="px-6">
       <h2 className="lg:text-3xl text-xl font-bold mb-4 text-center mt-5 uppercase ">
-        -------------------------- Popular Instructors
-        --------------------------
+      Popular Instructors
       </h2>
       <div className="grid grid-cols-3 gap-4">
         {popularInstructors.map((instructor) => (
@@ -29,6 +28,10 @@ const PopularInstructors = () => {
             <p className="font-semibold uppercase">
               {instructor.instructorName}
             </p>
+            <p className="font-semibold uppercase">
+              {instructor.email}
+            </p>
+
           </div>
         ))}
       </div>
