@@ -82,7 +82,7 @@ const SignUp = () => {
   return (
     <>
       <Helmet>
-        <title>ArtSchool | SingUp</title>
+        <title>HealthyFit | SingUp</title>
       </Helmet>
       <div className="grid md:grid-cols-2 items-center lg:grid-cols-2">
         <div className="mx-auto w-[80%]">
@@ -92,7 +92,7 @@ const SignUp = () => {
           <div className="flex flex-col max-w-md p-6 rounded-lg sm:p-10 bg-white shadow-lg  text-gray-900">
             <div className="mb-8 text-center">
               <h1 className="my-3 text-4xl font-bold">Sign Up</h1>
-              <p className="text-sm text-gray-400">Welcome to Art School</p>
+              <p className="text-sm text-gray-400">Welcome to Healthy Fit</p>
             </div>
             <form
               onSubmit={handleSubmit(onSubmit)}
@@ -104,7 +104,7 @@ const SignUp = () => {
                     Name
                   </label>
                   <input
-                    // style={{ borderRadius: "0px 200px 0px 200px" }}
+                    style={{ borderRadius: "0px 200px 0px 200px" }}
                     type="text"
                     name="name"
                     id="name"
@@ -125,7 +125,7 @@ const SignUp = () => {
 
                     <input
                       type="url"
-                      // style={{ borderRadius: "0px 200px 0px 200px" }}
+                      style={{ borderRadius: "0px 200px 0px 200px" }}
                       {...register("photoURL", { required: true })}
                       placeholder="Photo URL"
                       name="photoURL"
@@ -145,7 +145,7 @@ const SignUp = () => {
                     Email address
                   </label>
                   <input
-                    // style={{ borderRadius: "0px 200px 0px 200px" }}
+                    style={{ borderRadius: "0px 200px 0px 200px" }}
                     type="email"
                     name="email"
                     id="email"
@@ -176,7 +176,7 @@ const SignUp = () => {
                     )}
                   </div>
                   <input
-                    // style={{ borderRadius: "0px 200px 0px 200px" }}
+                    style={{ borderRadius: "0px 200px 0px 200px" }}
                     type={passwordShown ? "text" : "password"}
                     name="password"
                     id="password"
@@ -228,7 +228,7 @@ const SignUp = () => {
                     )}
                   </div>
                   <input
-                    // style={{ borderRadius: "0px 200px 0px 200px" }}
+                    style={{ borderRadius: "0px 200px 0px 200px" }}
                     type={passwordShown ? "text" : "password"}
                     name="confirmPassword"
                     id="password"

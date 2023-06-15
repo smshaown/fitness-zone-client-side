@@ -10,6 +10,7 @@ const Main = () => {
         <Outlet />
       </div>
       <Footer />
+     
     </div>
   );
 };

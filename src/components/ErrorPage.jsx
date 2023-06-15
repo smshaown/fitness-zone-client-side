@@ -7,7 +7,7 @@ const ErrorPage = () => {
   return (
     <div>
       <Helmet>
-        <title>ArtSchool | ErrorPage</title>
+        <title>HealthyFit | ErrorPage</title>
       </Helmet>
 
       <div className="mx-auto w-[50%]">

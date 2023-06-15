@@ -70,7 +70,7 @@ const Login = () => {
   return (
     <div>
       <Helmet>
-        <title>ArtSchool | Login</title>
+        <title>HealthyFit | Login</title>
       </Helmet>
       <div className="grid md:grid-cols-2 items-center lg:grid-cols-2">
         <div className="mx-auto w-[80%]">
@@ -80,7 +80,7 @@ const Login = () => {
           <div className="flex flex-col max-w-md p-6 rounded-lg sm:p-10 bg-white shadow-lg">
             <div className="mb-8 text-center">
               <h1 className="my-3 text-4xl font-bold">LogIn</h1>
-              <p className="text-sm text-gray-400">Welcome to Art School</p>
+              <p className="text-sm text-gray-400">Welcome to Healthy Fit</p>
             </div>
             <form
               onSubmit={handleSubmit(onSubmit)}
@@ -92,7 +92,7 @@ const Login = () => {
                     Email address
                   </label>
                   <input
-                    // style={{ borderRadius: "0px 200px 0px 200px" }}
+                    style={{ borderRadius: "0px 200px 0px 200px" }}
                     type="email"
                     name="email"
                     id="email"
