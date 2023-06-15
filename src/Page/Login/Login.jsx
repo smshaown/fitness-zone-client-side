@@ -140,7 +140,7 @@ const Login = () => {
               <div>
                 <button
                   type="submit"
-                  className="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 w-full rounded-md py-3 text-white"
+                  className="bg-[#C7D300] w-full rounded-md py-3 text-white"
                 >
                   Continue
                 </button>
@@ -159,13 +159,13 @@ const Login = () => {
             >
               <FcGoogle size={32} />
 
-              <p>Continue with Google</p>
+             
             </div>
             <p className="px-6 text-sm text-center text-gray-400">
               New Here?
               <Link
                 to="/singup"
-                className="hover:underline hover:text-rose-500 text-gray-600"
+                className="hover:underline hover:text-green-200 text-gray-600"
               >
                 Create an Account
               </Link>
