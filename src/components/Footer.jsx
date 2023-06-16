@@ -182,8 +182,8 @@ const Footer = () => {
       <div>
         <Logo />
         <p className="font-bold">
-          ACME Industries Ltd. <br />
-          Providing reliable tech since 1992
+          Fitness Zone Ltd. <br />
+          start the company 1999
         </p>
         <p>Copyright © 2023 - All right reserved</p>
       </div>
